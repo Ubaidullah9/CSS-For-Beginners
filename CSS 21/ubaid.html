@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ubaid</title>
+</head>
+<body>
+    <p id="peer"></p>
+    <p id="demo"></p>
+    <button onclick="this.innerHTML = Date()">the time is</button>
+
+    <script>
+        // let a="ubaid";
+        let a= 'ubaid';
+        let b= new String('ubaid');
+        document.getElementById('peer').innerHTML = (a==b);
+
+        let c= new String('ubaid');
+        let d= new String('ubaid');
+        document.getElementById('demo').innerHTML = (c===d);
+
+        const array = ['Ubaid','Ullah','Khan'];
+    
+        let text = " ";
+       for(let i=0 ; i<array.length ; i++){
+           text += array[i] + '<br>';
+       }
+       document.getElementById('demo').innerHTML = text;
+
+
+    </script>
+</body>
+</html>

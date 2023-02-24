@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<style>
+    body{
+        font-family: 'Mynerve', cursive;
+    }
+.container{
+    border: 2px solid red;
+    background-color: aquamarine;
+    width: 500px;
+    margin: 34px auto;
+    padding: 10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: chartreuse;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: chartreuse;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+}
+.btn:hover , .link:hover{
+    background-color: darkgreen;
+    color: beige;
+     
+}
+.link:active{
+    background-color: blue;
+}
+</style>
+<body>
+
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus a ex autem, porro aliquam eius repellendus magnam voluptates. Rerum nam ea deleniti officia quae rem? Labore fugiat doloremque corrupti.</p>
+        <a href="https://google.com" target="_blank" class="link">Check More</a>
+        <button type="button" class="btn" onclick="myFunction()" >Click me for</button>
+    </div>
+    <script>
+    function myFunction() {
+      window.history.back(); 
+    }
+    </script> 
+</body>
+</html>

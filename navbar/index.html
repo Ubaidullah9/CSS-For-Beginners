@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: url('img/istockphoto-517188688-612x612.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .navbar {
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        background-color: cornflowerblue;
+    }
+
+    .navbar a {
+        position: relative;
+    }
+
+    .navbar p {
+        position: relative;
+        top: 18px;
+        padding-right: 10px;
+    }
+
+    .navbar .gmail,
+    .google,
+    .contact,
+    a {
+        padding: 0px 0px 10px 10px;
+        text-decoration: none;
+        color: black;
+        text-decoration: underline;
+    }
+
+    .left {
+        float: right;
+        margin: 10px 10px;
+        padding: 0px 5px 10px 10px;
+    }
+
+    .left img {
+        width: 30px;
+        border-radius: 10px;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .left a {
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .left a:hover {
+        background-color: aquamarine;
+        color: black;
+        text-decoration: underline;
+    }
+
+    /* .main .googleimage h1 {
+        display: inline-block;
+        justify-content: center;
+        margin: 100px 0px 0px 500px;
+
+    } */
+    .googleimage p{
+        margin-top: 130px;
+        text-align: center;
+        font-size: 4rem;
+        padding-bottom: 20px;
+    }
+    .search{
+        text-align: center;
+
+    }
+    .search input{
+       border-radius: 30px solid black;
+        padding: 8px;
+        width: 400px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="gmail">
+                <a href="">Gmail</a>
+                <a href=""><i class="fa-sharp fa-regular fa-m"></i></a>
+            </div>
+            <div class="google">
+                <a href="">Google</a>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+            </div>
+            <div class="contact">
+                <a href="">Contact</a>
+                <a href=""><i class="fa-solid fa-address-book"></i></a>
+            </div>
+        </div>
+        <div class="left">
+            <a href="">Gmail</a>
+            <a href="">Images</a>
+            <i class="fa-solid fa-grid-2"></i>
+            <img src="img/images.jpg" alt="error">
+        </div>
+    </header>
+    <div class="googleimage">
+        <p>Google</p>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Search" style="border-radius: 20px;">
+    </div>
+</body>
+
+</html>

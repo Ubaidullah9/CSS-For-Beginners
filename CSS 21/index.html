@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="show"></p>
+    <p id="amir"></p>
+    <script src="script.js"></script>
+    <button onclick="myfunction()">Click me to display date and time</button>
+
+    <script>
+        function show(p1,p2){
+              return p1+p2;
+        }
+    document.getElementById('show').innerHTML = show(21,4);
+
+
+       const ubaid = {
+        fname: "ubaid",
+        lname : "ullah",
+        age: 22
+       };
+       document.getElementById('amir').innerHTML =" my name is is "+ ubaid['fname'] +" "+  ubaid.lname + " and i am " + ubaid.age + " years old";
+           
+    </script>
+
+</body>
+</html>
